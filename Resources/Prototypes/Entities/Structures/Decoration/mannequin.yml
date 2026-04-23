@@ -28,9 +28,9 @@
           !type:PhysShapeCircle
           radius: 0.2
         density: 200
-        mask:
-        - MachineMask
-        #layer:
+        #mask:
+        # - MachineMask # starcup: rendered inert
+        #layer: # starcup: rendered inert
         #- MidImpassable
         #- BulletImpassable
   - type: InteractionOutline
