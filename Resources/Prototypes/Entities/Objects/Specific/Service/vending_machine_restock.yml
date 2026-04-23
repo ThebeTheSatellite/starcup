@@ -276,8 +276,9 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockMedical
-  name: NanoMed restock box
-  description: Slot into your department's NanoMed or NanoMedPlus to dispense. Handle with care.
+  name: SyndMed restock box # starcup: renamed to SyndMed
+  description: Slot into your department's SyndMed or SyndMedPlus to dispense. Handle with care.
+  # starcup: changed instances of NanoMed to Syndmed in description
   components:
   - type: VendingMachineRestock
     canRestock:
