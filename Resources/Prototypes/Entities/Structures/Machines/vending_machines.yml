@@ -197,9 +197,8 @@
         mask:
         - MachineMask
         layer:
-        - MachineLayer
-        #- MidPassable # starcup
-        #- BulletPassable # starcup
+        - Opaque #starcup: changed machine layer to opaque
+        - BulletImpassable #starcup
         density: 190
   - type: DatasetVocalizer
     dataset: CondimentVendAds
