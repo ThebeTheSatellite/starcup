@@ -198,6 +198,8 @@
         - MachineMask
         layer:
         - MachineLayer
+        - MidPassable # starcup
+        - BulletPassable # starcup
         density: 190
   - type: DatasetVocalizer
     dataset: CondimentVendAds
