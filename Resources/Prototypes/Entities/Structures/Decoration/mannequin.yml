@@ -30,9 +30,9 @@
         density: 200
         mask:
         - MachineMask
-        layer:
-        - MidImpassable
-        - BulletImpassable
+        #layer:
+        #- MidImpassable
+        #- BulletImpassable
   - type: InteractionOutline
   - type: Construction
     graph: Mannequin
