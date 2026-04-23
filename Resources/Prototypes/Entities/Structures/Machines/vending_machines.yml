@@ -197,8 +197,7 @@
         mask:
         - MachineMask
         layer:
-        - Opaque #starcup: changed machine layer to opaque
-        - BulletImpassable #starcup
+        - BulletImpassable #starcup: removed machine layer and replaced it with BulletImpassable
         density: 190
   - type: DatasetVocalizer
     dataset: CondimentVendAds
