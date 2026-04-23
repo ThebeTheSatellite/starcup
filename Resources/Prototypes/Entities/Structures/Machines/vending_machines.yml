@@ -960,7 +960,7 @@
 - type: entity
   parent: VendingMachineMedicalBase
   id: VendingMachineMedical
-  name: Syndmed Plus # starcup: changed name from NanoMed to SyndMed
+  name: SyndMed Plus # starcup: changed name from NanoMed to SyndMed
   components:
   - type: VendingMachine
     pack: NanoMedPlusInventory
