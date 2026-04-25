@@ -105,6 +105,7 @@ namespace Content.IntegrationTests.Tests
             "Shoukou",
             "Banana",
             "Crux",
+			"Canis",
             "EventGlacierVacation",
             "EventCharonEpsilon",
             "EventSyndcommEpilogue",

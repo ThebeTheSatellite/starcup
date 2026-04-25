@@ -31,6 +31,7 @@ public sealed class StationPowerTests
         "Byoin",
         "Train",
         "Crux",
+		"Canis",
         // end starcup
     ];
 
