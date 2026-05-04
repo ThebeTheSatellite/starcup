@@ -246,7 +246,7 @@
     - CanPilot
     - FootstepSound
     - DoorBumpOpener
-    - AnomalyHost
+    - AnomalyHost # starcup: added anomaly host
   - type: FootprintOwner # starcup
     footprint: lizardFootprint # starcup
 
