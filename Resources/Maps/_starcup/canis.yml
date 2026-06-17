@@ -4,8 +4,8 @@ meta:
   engineVersion: 275.2.0
   forkId: starcup
   forkVersion: f5c9cdbf08002c8389f4ba939f04ec93f36ecd7f
-  time: 06/17/2026 17:20:14
-  entityCount: 23533
+  time: 06/17/2026 18:05:01
+  entityCount: 23534
 maps:
 - 1
 grids:
@@ -29657,6 +29657,14 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 0.5,-57.5
+      parent: 2
+- proto: ButtonFrameGrey
+  entities:
+  - uid: 23534
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 21.5,12.5
       parent: 2
 - proto: ButtonFrameJanitor
   entities:
@@ -66253,6 +66261,11 @@ entities:
     - type: Transform
       pos: 16.5,-62.5
       parent: 2
+  - uid: 11422
+    components:
+    - type: Transform
+      pos: 18.5,15.5
+      parent: 2
 - proto: ComputerCargoBounty
   entities:
   - uid: 11421
@@ -66262,11 +66275,6 @@ entities:
       parent: 2
 - proto: ComputerCargoOrders
   entities:
-  - uid: 11422
-    components:
-    - type: Transform
-      pos: 18.5,15.5
-      parent: 2
   - uid: 11423
     components:
     - type: Transform
@@ -108114,6 +108122,64 @@ entities:
         18222:
         - - Pressed
           - Toggle
+  - uid: 19486
+    components:
+    - type: MetaData
+      name: bridge window blast doors
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 21.5,12.5
+      parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        4264:
+        - - Pressed
+          - Toggle
+        4263:
+        - - Pressed
+          - Toggle
+        4262:
+        - - Pressed
+          - Toggle
+        4261:
+        - - Pressed
+          - Toggle
+        4265:
+        - - Pressed
+          - Toggle
+        4266:
+        - - Pressed
+          - Toggle
+        4267:
+        - - Pressed
+          - Toggle
+        4268:
+        - - Pressed
+          - Toggle
+        4269:
+        - - Pressed
+          - Toggle
+        4270:
+        - - Pressed
+          - Toggle
+        4271:
+        - - Pressed
+          - Toggle
+        4272:
+        - - Pressed
+          - Toggle
+        4273:
+        - - Pressed
+          - Toggle
+        4274:
+        - - Pressed
+          - Toggle
+        4275:
+        - - Pressed
+          - Toggle
+        4276:
+        - - Pressed
+          - Toggle
 - proto: LockableButtonEngineering
   entities:
   - uid: 17405
@@ -121681,14 +121747,6 @@ entities:
         18267:
         - - Pressed
           - Toggle
-- proto: SignalButtonBridge
-  entities:
-  - uid: 19486
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 21.5,12.5
-      parent: 2
 - proto: SignalButtonDirectional
   entities:
   - uid: 19487
